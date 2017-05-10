@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>TicketManagementSystem</display-name>
+  <welcome-file-list>
+    <welcome-file>Login.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.tcs.ilp.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.tcs.ilp.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/registerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CreateTicketServlet</servlet-name>
+    <servlet-class>com.tcs.ilp.servlet.CreateTicketServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreateTicketServlet</servlet-name>
+    <url-pattern>/createTicketServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UpdateTicketServlet</servlet-name>
+    <servlet-class>com.tcs.ilp.servlet.UpdateTicketServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateTicketServlet</servlet-name>
+    <url-pattern>/updateTicketServlet</url-pattern>
+  </servlet-mapping>
+ 
+ 
+  
+  <servlet>
+    <servlet-name>UpdateTicket</servlet-name>
+    <servlet-class>com.tcs.ilp.servlet.UpdateTicket</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateTicket</servlet-name>
+    <url-pattern>/updateTicket</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>SearchTicketServlet</servlet-name>
+    <servlet-class>com.tcs.ilp.servlet.SearchTicketServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchTicketServlet</servlet-name>
+    <url-pattern>/searchTicketServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DeleteTicketServlet</servlet-name>
+    <servlet-class>com.tcs.ilp.servlet.DeleteTicketServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteTicketServlet</servlet-name>
+    <url-pattern>/deleteTicketServlet</url-pattern>
+  </servlet-mapping>
+ 
+  
+ <servlet>
+ <servlet-name>DeleteServlet</servlet-name>
+    <servlet-class>com.tcs.ilp.servlet.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteServlet</servlet-name>
+    <url-pattern>/deleteServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.tcs.ilp.servlet.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/logoutServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>TStatusConfigServlet</servlet-name>
+    <servlet-class>com.tcs.ilp.servlet.TStatusConfigServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TStatusConfigServlet</servlet-name>
+    <url-pattern>/tStatusConfigServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+    <servlet-name>TTypeConfigServlet</servlet-name>
+    <servlet-class>com.tcs.ilp.servlet.TTypeConfigServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TTypeConfigServlet</servlet-name>
+    <url-pattern>/tTypeConfigServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>TStatusRemoveServlet</servlet-name>
+    <servlet-class>com.tcs.ilp.servlet.TStatusRemoveServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TStatusRemoveServlet</servlet-name>
+    <url-pattern>/tStatusRemoveServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>TStatusAddServlet</servlet-name>
+    <servlet-class>com.tcs.ilp.servlet.TStatusAddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TStatusAddServlet</servlet-name>
+    <url-pattern>/tStatusAddServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>TStatusUpdateServlet</servlet-name>
+    <servlet-class>com.tcs.ilp.servlet.TStatusUpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TStatusUpdateServlet</servlet-name>
+    <url-pattern>/tStatusUpdateServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>TTypeAddServlet</servlet-name>
+    <servlet-class>com.tcs.ilp.servlet.TTypeAddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TTypeAddServlet</servlet-name>
+    <url-pattern>/tTypeAddServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>TTypeRemoveServlet</servlet-name>
+    <servlet-class>com.tcs.ilp.servlet.TTypeRemoveServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TTypeRemoveServlet</servlet-name>
+    <url-pattern>/tTypeRemoveServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>TTypeUpdateServlet</servlet-name>
+    <servlet-class>com.tcs.ilp.servlet.TTypeUpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TTypeUpdateServlet</servlet-name>
+    <url-pattern>/tTypeUpdateServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

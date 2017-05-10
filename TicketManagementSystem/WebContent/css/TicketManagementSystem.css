@@ -1,0 +1,145 @@
+body 
+  {
+    	background-color: #dbdbdb;
+    	color: black;
+    	text-align: center;
+        margin: auto;
+    	font-family: "Times New Roman";
+     	font-size: 18px;
+}
+h1
+  {
+	color: #1a1a1a;
+    padding-top: 10px;
+	text-align: center;
+	font-family: "Times New Roman";
+	font-size: 25px;	
+  }
+h2
+  {	
+	color: black;
+	font-family: "Times New Roman";
+	font-size: 20px;
+ 	text-decoration: underline;
+  }
+table, th, td
+  {
+	border: 1px solid black;
+  }
+table 
+  {
+ 	border-collapse: collapse;
+ 	width:70%;
+    margin: 0 auto;
+  }
+
+th 
+  {
+	height: 40px;
+	text-align: center;
+  	color: black;
+    font-size: 17px;
+  }
+th, td 
+  {
+	padding: 0;
+	
+}
+td
+{
+  
+  height: 30px;
+  text-align: center;
+  font-size: 14px;
+  }
+
+  input[type=text], select
+   {
+    width:12%;
+    padding: 5px 10px;
+    margin: 8px 5;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    box-sizing: border-box;
+  }
+ input[type=password]
+  {
+    width:12%;
+    padding: 5px 10px;
+    margin: 8px 5;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    box-sizing: border-box;
+   }
+ input[type=submit]
+  {
+    width: 9%;
+    background-color: #3c3c3c;
+    color: white;
+    font-size: 15px;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  input[type=button]
+  {
+    width: 5%;
+    background-color: #696969;
+    color: white;
+    font-size: 15px;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius:7px;
+    cursor: pointer;
+  }
+   label
+{
+    display: inline-block;
+     width:12%;
+     text-align:center;
+}
+textarea  
+{  
+   font-family:"Times New Roman", Times, serif;  
+   font-size: 12px;   
+}
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    
+    user-select: none;
+}
+.popup .popuptext {
+    visibility: hidden;
+    width:500%;
+    height:500%;
+    left: 5%;
+    top: 100%;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    margin-left: -80px;
+}
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+.topcorner
+{
+	position:absolute;
+	top:10px;
+	right:85px;
+	padding: 8px 0;
+}
